@@ -1,7 +1,7 @@
 <?php
 
     //PDO Database Connectie
-    $conn = new PDO('mysql:host=localhost;dbname=bap', '22786' , 'sMbNiznXs3IqxsuT');
+    $conn = new PDO('mysql:host=localhost;dbname=bap', '*****' , '*****');
 
     //MySQL Query (commando naar database)
     $statement = $conn->prepare("INSERT INTO guestbook (name, email, message) VALUES(?,?,?)");
